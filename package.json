@@ -1,5 +1,5 @@
 {
-  "name": "react-registry",
+  "name": "react-component-registry",
   "version": "0.1.2",
   "description": "A library for registering, retrieving, and rendering React components.",
   "main": "dist/index.js",
@@ -16,7 +16,7 @@
     "prebuild": "npm run lint && npm run remove-dist",
     "build": "node ./node_modules/typescript/bin/tsc --outDir ./dist"
   },
-  "author": "Joe Esposito <joe@devnet.io>",
+  "author": "zjh1943<jhzhuustc@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4"
@@ -56,12 +56,8 @@
     },
     "testRegex": "spec.*\\.(ts|tsx|js|jsx)$"
   },
-  "bugs": {
-    "url": "https://github.com/devnet-io/typescript-graphql/issues"
-  },
-  "homepage": "https://devnet.io/libs/react-registry",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devnet-io/react-registry.git"
+    "url": "https://github.com/zjh1943/react-registry.git"
   }
 }
